@@ -1,3 +1,6 @@
+.img {
+  margin-top: -3rem;
+}
 .flexbox-container {
   display: flex;
   flex-direction: column;
@@ -9,6 +12,7 @@
 .section {
   background-color: #1b447f;
   padding-top: 25px;
+  padding-bottom: 1rem;
   margin-top: 1rem;
 
 }
@@ -40,7 +44,6 @@
 
 footer {
   font-family: Arial, sans-serif;
-
   font-size: 17px;
   color:#FFFFFF;
 }
