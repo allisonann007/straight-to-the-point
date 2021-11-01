@@ -1,3 +1,30 @@
+.flexbox-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #1b447f;
+  padding: 25px;
+  margin-top: 1rem;
+
+}
+.section {
+  background-color: #1b447f;
+  padding-top: 25px;
+  margin-top: 1rem;
+
+}
+.grid-item-3 {
+  grid-column-start: 7;
+  grid-column-end: 8;
+}
+.grid-item-2 {
+  grid-column-start: 5;
+  grid-column-end: 6;
+}
+
+.grid-item-1 {
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
 .section {
   padding-left: 3rem;
   padding-right: 3rem;
@@ -5,24 +32,15 @@
 
 .grid-container {
   display: grid;
-  grid-row-gap: 0px;
-  justify-content: space-around;
+  grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+  background-color: #1b447f;
   margin-top: 1rem;
-  margin-bottom: -3rem;
-}
-.grid-item-1{
-  grid-column-start:1;
-  grid-column-end: 4;
-  background-color: #1b447f;
-}
-.grid-item-2{
-  background-color: #1b447f;
-  grid-column-start: 4;
+
 }
 
 footer {
   font-family: Arial, sans-serif;
-  font-weight: regular;
+
   font-size: 17px;
   color:#FFFFFF;
 }
@@ -54,7 +72,6 @@ a {
 
 header {
   font-family: Arial, sans-serif;
-  font-weight: regular;
   font-size: 17px;
   background-color: #03a3df;
   padding-left: 4rem;
@@ -63,28 +80,31 @@ header {
 
 p {
   font-family: Arial, sans-serif;
-  font-weight: regular;
   font-size: 17px;
   color:#FFFFFF;
 }
 
-  h1 {
+h1 {
   font-family: Arial, sans-serif;
   font-weight: bold;
   font-size: 40px;
 }
-
 h2 {
-  padding-left: 3rem;
-  padding-right: 3rem;
   font-family: Arial, sans-serif;
-  font-weight: bold;
   font-size: 24px;
   color:#ecb722;
 }
 
 h3 {
+  padding-top: 2rem;
   font-family: Arial, sans-serif;
   font-weight: bold;
   font-size: 17px;
+  color:#ecb722;
+}
+h4 {
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+  color:#ecb722;
 }
